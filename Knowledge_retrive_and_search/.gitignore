@@ -1,0 +1,45 @@
+# ---------- 密钥与本地环境（勿提交）----------
+.env
+.env.*
+!.env.example
+
+# ---------- 运行时数据 / 生成物（体积大或机器相关）----------
+chromaDB/
+chroma_db*/
+output/
+data/
+*.log
+graph.png
+
+# 本地 PDF 输入与临时上传（若存在）
+input/
+uploads/
+tmp/
+temp/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------- IDE / 工具 ----------
+.idea/
+.vscode/
+.cursor/
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db

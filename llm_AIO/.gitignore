@@ -1,0 +1,37 @@
+.env
+# Windows 下错误使用 > nul 重定向时，有时会在目录里生成名为 nul 的空文件（非项目代码）
+nul
+NUL
+__pycache__/
+*.db
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+venv/
+env/
+*.log
+*.log
+.debug_*
+# 忽略所有 uploads 目录下的文件
+uploads/
+
+# 忽略转写结果下载缓存
+downloads/
+
+# 忽略 knowledge_base, reports, test_results 等测试目录
+knowledge_base/
+reports/
+test_results/
+
+# 忽略服务文件（如果不需要）
+unified-gateway.service
+
+# 忽略部分文档文件
+llmfactory_curl命令.md
+RAG整合使用指南.md
+doc/
+
+# 忽略输出文件
+train_output/
+doc/
